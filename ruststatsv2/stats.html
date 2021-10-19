@@ -1,0 +1,33 @@
+<div id="statstop">
+		<div id="displaypicture"><img src="<?php echo $displayPicture; ?>"></img></div>
+			<div id="playersname"><?php echo $playerName; ?></div>
+			
+				
+				<div id="overallstats">
+					PvP stats: <br> 
+					Servers recorded:  <?php echo $serverCount; ?> <br>
+					PVP kills:  <?php echo $totalKills; ?> <br>
+					PVP deaths:  <?php echo $totalDeaths; ?> <br>
+					Overall K:D ratio - <?php echo $killRatio; ?> <br>
+					Suicides: <?php echo $suicide; ?>
+				</div>
+				<div id="overallstats_other">
+					<span id="deathstitle">Additional Deaths</span><br>
+							<div id="overallstats_other_split">
+								Deaths to Spiked shit: <?php echo $spiked; ?> <br>
+								Deaths to Nature: <?php echo $nature; ?> <br>
+								Deaths to Floor shit: <?php echo $floor; ?> <br>
+								Deaths to traps: <?php echo $traps; ?> <br>
+								Deaths to NPC/Animals: <?php echo $npc; ?> <br>
+								Deaths to Vehicles: <?php echo $vehicle; ?>
+							</div>
+							<div id="overallstats_other_split">
+							<h2>Stupidity Score <br> <?php echo $stupidityScore; ?></h2>
+							</div>
+				</div><br>
+				<div id="shareable_container" onclick="copytext()">
+				<label for="sharelink">Share link</label>
+				<input type="text" name="sharelink" id="sharelink" value="gnomesthings.com/ruststatsv2/?id=<?php echo $steamid; ?>"> </input>
+				<div id="copiedtext"></div>
+				</div><br>
+</div>

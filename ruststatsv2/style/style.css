@@ -1,0 +1,496 @@
+body
+{
+	background-color: gray;
+	margin: 0px;
+	font-family: arial;
+	color: rgba(220,220,220,1);
+	background-color: rgba(25, 25, 25, 1);
+	
+}
+
+
+#formtext
+{
+	color: #878787;
+	-webkit-text-stroke: 0.5px black;
+	text-shadow: 1px;
+}
+#container
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	
+	font-size: 2em;
+}
+
+#container form
+{
+	width: 100%;
+	
+}
+
+#container input
+{
+	width: 100%;
+	height: 50px;
+	
+	font-size: 1.5em;
+	padding-left: 3px;
+	border:2px solid #000;
+	
+	 -webkit-border-radius: 12px; 
+	 -moz-border-radius: 12px; 
+	  border-radius: 12px;
+	  
+}
+
+#container button
+{
+	width: 30%;
+	margin: auto;
+	font-size: 1.5em;
+	
+	padding-left: 3px;
+	border:2px solid #000;
+	
+	 -webkit-border-radius: 12px; 
+	 -moz-border-radius: 12px; 
+	  border-radius: 12px;
+}
+
+#stats_search_container
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 1%;
+	
+	font-size: 1.5em;
+}
+
+#stats_search_container form
+{
+	width: 100%;
+	
+}
+
+#stats_search_container input
+{
+	width: 100%;
+	height: 50px;
+	
+	font-size: 1.5em;
+	
+	padding-left: 3px;
+	border:2px solid #000;
+	
+	 -webkit-border-radius: 12px; 
+	 -moz-border-radius: 12px; 
+	  border-radius: 12px;
+	  
+}
+
+#stats_search_container button
+{
+	width: 30%;
+	margin: auto;
+	font-size: 1.5em;
+	
+	padding-left: 3px;
+	border:2px solid #000;
+	
+	 -webkit-border-radius: 12px; 
+	 -moz-border-radius: 12px; 
+	  border-radius: 12px;
+}
+
+#statscontainer
+{
+	width: 90%;
+	margin: auto;
+}
+
+#statstop
+{
+	width: 100%;
+	height: 255px;
+	
+	padding: 3px;
+}
+
+#displaypicture
+{
+	float: left;
+	width: 250px;
+	height: 250px;
+	
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#displaypicture img
+{
+	width: 100%;
+	height: 100%;
+}
+
+#playersname
+{
+	width: 84%;
+	height: 60px;
+	margin: auto;
+	
+	margin-left: 15%;
+	padding: 2px;
+	
+	text-align: center;
+	font-size: 3.3em;
+	
+	background: rgba(90, 90, 90,0.50);
+	
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px;
+	
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#overallstats
+{
+	width: 30%;
+	float: left;
+	margin-left: 1%;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 1%;
+	
+	background: rgba(90, 90, 90,0.50);
+	
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px;
+	
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#shareable_container
+{
+	width: 85%;
+	float: right;
+	margin-top: 5px;
+	margin-left: 17px;
+	font-size: 1.5em;
+}
+
+#shareable_container input
+{
+	width: 50%;
+	height: 50px;
+	background-color: white;
+	color: black;
+	padding-left: 3px;
+	border:2px solid #000;
+	font-size: 1em;
+	 -webkit-border-radius: 12px; 
+	 -moz-border-radius: 12px; 
+	  border-radius: 12px;
+}
+
+
+#shareable_container #copiedtext
+{
+	width: 18%;
+	margin-top: 15px;
+	float: right;
+	margin-right: 23%;
+}
+
+#overallstats_other
+{
+	width: 50%;
+	float: right;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+
+#overallstats_other_split
+{
+	width: 40%;
+	float: left;
+	font-size: 1.5em;
+	text-align: left;
+	margin-top: 1.5%;
+	
+	margin-left: 5px;
+	padding: 4px;
+	background: rgba(90, 90, 90,0.50);
+	
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px;
+	
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#overallstats_other_split h2
+{
+	text-align: center;
+}
+
+#deathstitle
+{
+	margin: 0;
+	font-size: 2em;
+	font-weight: bold;
+	
+	padding: 4px;
+	background: rgba(90, 90, 90,0.50);
+	
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px;
+	
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#statsservers
+{
+	width: 85%;
+	float: right;
+	padding: 5px;
+	
+}
+
+#statsserver
+{
+	width: 100%;
+	float: left;
+	margin-top: 1%;
+	
+	background-color: #4c82d9;
+	
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	
+	font-size: 2em;
+	
+	background: rgba(90, 90, 90,0.50);
+	
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px;
+	
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	  
+	  padding: 8px;
+}
+	
+	
+.bleepaple
+{
+	position: relative;
+	
+	width: 500px;
+	height: 250px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: black;
+	margin: auto;
+	float: right;
+	margin-right: 30%;
+	margin-top: 1%;
+}
+
+#myChart
+{
+	position: absolute;
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+}
+
+
+#error
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff0000;
+	
+	background-color: #c21d1d;
+	
+	-webkit-border-radius: 12px; 
+	 -moz-border-radius: 12px; 
+	  border-radius: 12px;
+	  
+	font-size: 4em;
+	width: 75%;
+	
+	margin: auto;
+	
+	text-align: center;
+}
+
+
+#nav-container
+{
+	width: 100%;
+	height: 50px;
+}
+
+#link
+{
+	font-size: 2em;
+	
+	padding-top: 0.75%;
+	
+	width: 15%;
+	
+	float: left;
+	text-align: center;
+}
+
+
+#dailybreakdown
+{
+	width: 95%;
+	margin: auto;
+}
+
+
+
+ul 
+{
+	list-style-type: none;
+}
+
+/* Month header */
+.month 
+{
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays 
+{
+  margin: 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days 
+{
+  background: #eee;
+  margin: 0;
+  
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+  
+  vertical-align: text-top;
+  
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  
+  height: 75px;
+  
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.monthlybreak
+{
+	width: 100%;
+	float: left;
+}
+
+#monthcontainer
+{
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+}
+
+#note
+{
+	background-color: yellow;
+	font-size: 35px;
+	width: 100%;
+	color: red;
+	text-align: center;
+}
