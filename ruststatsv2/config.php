@@ -47,21 +47,14 @@
 		//Our server connection info (Test environment)
 		define("_SEVRNAME", "localhost");
 		define("_DBNAME", "lfg");
-		define("_USERNAME", "wilsons");
+		define("_USERNAME", "username");
 		define("_PASSWORD", "password");
-		
-		/*Our server connection info (Live environment)
-		define("servername", "mysql462.loopia.se");
-		define("dbname", "veme_se_db_2");
-		define("username", "gnome@v288487");
-		define("password", "7uLaMw!DJxn27Ce");
-		*/
 		
 		
 		//Our BM token!
-		define("_TOKEN_BM", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjFmOTY4ZjYzMDFmYTQ2ZTEiLCJpYXQiOjE2MDc1MDg5NzQsIm5iZiI6MTYwNzUwODk3NCwiaXNzIjoiaHR0cHM6Ly93d3cuYmF0dGxlbWV0cmljcy5jb20iLCJzdWIiOiJ1cm46dXNlcjoxNzAwMjQifQ.tpj-8DyUcpl8gd99EbhVcf_Saoc5twE8husjZLxvVz8");
+		define("_TOKEN_BM", "Battlemetrics token");
 		
 		//Our steam token!
-		define("_TOKEN_STEAM", "B371BAD0BB2D03A635554E0A4EEDA40C");
+		define("_TOKEN_STEAM", "Steam token");
 ?>
 
